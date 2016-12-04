@@ -3,11 +3,27 @@
 <head>
   <title>KTÜ Sınavlara Kaç Gün Kaldı?</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<p id="vize" style="display: none">Vizelere kalan gün:</p><br>
-<p id="final" style="display: none">Finallere kalan gün:</p><br>
-<p id="but" style="display: none">Bütlere kalan gün:</p><br>
+<table>
+  <tr id="ustSatir">
+    <th>Sınav</th>
+    <th>Kalan Gün</th>
+  </tr>
+  <tr id="vizeTablo" style="display: none">
+    <th>Vize</th>
+    <th><p id="vize"></p></th>
+  </tr>
+  <tr id="finalTablo" style="display: none">
+    <th>Final</th>
+    <th><p id="final"></p></th>
+  </tr>
+  <tr id="butTablo" style="display: none">
+    <th>Büt</th>
+    <th><p id="but"></p></th>
+  </tr>
+</table>
 <script src="date.js"></script>
 </body>
 </html>
