@@ -9,17 +9,17 @@ var butlereKalanGun = aradakiGunBul(butTarih,bugunTarih);
 
 
 if (bugunTarih < vizeTarih){
-    document.getElementById("vize").style.display = 'block';
-    document.getElementById("final").style.display = 'block';
-    document.getElementById("but").style.display = 'block';
+    document.getElementById('vize').style.display = 'block';
+    document.getElementById('final').style.display = 'block';
+    document.getElementById('but').style.display = 'block';
 
     document.getElementById('vize').innerHTML = "vizelere kalan süre: "+vizelereKalanGun+" gün";
     document.getElementById('final').innerHTML = "Finallere kalan süre: "+finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = "Butlere kalan süre: "+butlereKalanGun+" gün";
 }
 else if (bugunTarih < finalTarih){
-    document.getElementById("#final").style.display = 'block';
-    document.getElementById("#but").style.display = 'block';
+    document.getElementById('final').style.display = 'block';
+    document.getElementById('but').style.display = 'block';
 
     document.getElementById('final').innerHTML = "Finallere kalan süre: "+finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = "Bütlere kalan süre: "+butlereKalanGun+" gün";
