@@ -1,7 +1,7 @@
 # KTÜ Sınavalara Kaç Gün Kaldı ?
 Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını gösteriyor.
 
-Eklentiyi yüklemek için; https://chrome.google.com/webstore/detail/kt%C3%BC-s%C4%B1navlara-ka%C3%A7-g%C3%BCn-kal/jkcjnfmjoliakpdofapgmmbobehhfbah?utm_source=plus
+Eklentiyi yüklemek için; https://goo.gl/vTKpVW
 
 #Yapılacaklar
 
@@ -10,6 +10,8 @@ Eklentiyi yüklemek için; https://chrome.google.com/webstore/detail/kt%C3%BC-s%
 -bys.ktu.edu.tr adresine direk gitmek için link eklenecek.
 
 -Sınava kalan gün sayısı ikon üzerinde gösterilecek.
+
+-Chrome izinleri düzenlenecek.
 
 
 
