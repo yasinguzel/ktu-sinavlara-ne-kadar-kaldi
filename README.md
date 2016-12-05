@@ -13,5 +13,7 @@ Eklentiyi yüklemek için; https://goo.gl/vTKpVW
 
 -Chrome izinleri düzenlenecek.
 
+-Sınav tarihlerini üniversitenin web sitesinden otomatik çekilecek.
+
 
 
