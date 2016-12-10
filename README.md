@@ -15,5 +15,7 @@ Eklentiyi yüklemek için; https://goo.gl/vTKpVW
 
 -Sınav tarihlerini üniversitenin web sitesinden otomatik çekilecek.
 
+-Tatillerde ise üniversitenin açılmasına kaç gün kaldığını gösterecek.
+
 
 
