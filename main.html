@@ -1,28 +1,37 @@
 <!doctype html>
 <html>
 <head>
-  <title>KTÜ Sınavlara Kaç Gün Kaldı?</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <link rel="stylesheet" href="main.css">
+    <title>KTÜ Sınavlara Kaç Gün Kaldı?</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<table>
-  <tr id="ustSatir">
-    <th>Sınav</th>
-    <th>Kalan Gün</th>
-  </tr>
-  <tr id="vizeTablo" style="display: none">
-    <th>Vize</th>
-    <th><p id="vize"></p></th>
-  </tr>
-  <tr id="finalTablo" style="display: none">
-    <th>Final</th>
-    <th><p id="final"></p></th>
-  </tr>
-  <tr id="butTablo" style="display: none">
-    <th>Büt</th>
-    <th><p id="but"></p></th>
-  </tr>
+<table class="container">
+    <thead>
+        <tr id="ustSatir">
+            <th><h1>Sınav</h1></th>
+            <th><h1>Kalan Gün</h1></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="tatilTablo" style="display: none">
+            <td>Okul Açılış</td>
+            <td><p id="tatil"></p><p>+1 Hafta gayri resmi öğrenci tatili  🙂</p></td>
+        </tr>
+        <tr id="vizeTablo" style="display: none">
+            <td>Vize</td>
+            <td><p id="vize"></p></td>
+        </tr>
+        <tr id="finalTablo" style="display: none">
+            <td>Final</td>
+            <td><p id="final"></p></td>
+        </tr>
+        <tr id="butTablo" style="display: none">
+            <td>Büt</td>
+            <td><p id="but"></p></td>
+        </tr>
+    </tbody>
 </table>
 <script src="date.js"></script>
 </body>

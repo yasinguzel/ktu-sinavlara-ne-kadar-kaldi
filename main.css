@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 330px;
 }
 
 table, td, th {
@@ -13,10 +14,20 @@ table {
 }
 
 th, td {
-    padding: 15px;
+    padding: 9px;
 }
+
+tr:nth-child(even){background-color: #f2f2f2}
 
 #ustSatir{
     background-color: #0D65AC;
     color: white;
+}
+
+*{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+td{
+    font-size: 17px;
 }

@@ -1,14 +1,27 @@
-var vizeTarih = new Date("2016-11-12");
-var finalTarih = new Date("2017-1-2");
-var butTarih = new Date("2017-1-23");
+var okulAcilisTarih = new Date("2017-2-13");
+var vizeTarih = new Date("2017-4-8");
+var finalTarih = new Date("2017-5-29");
+var butTarih = new Date("2017-6-19");
 var bugunTarih = new Date();
 
 var vizelereKalanGun = aradakiGunBul(vizeTarih,bugunTarih);
 var finallereKalanGun = aradakiGunBul(finalTarih,bugunTarih);
 var butlereKalanGun = aradakiGunBul(butTarih,bugunTarih);
+var okulAcilisKalanGun = aradakiGunBul(okulAcilisTarih,bugunTarih);
 
 
-if (bugunTarih < vizeTarih){
+if (bugunTarih <= okulAcilisTarih){
+    document.getElementById('tatilTablo').style.display = 'table-row';
+    document.getElementById('vizeTablo').style.display = 'table-row';
+    document.getElementById('finalTablo').style.display = 'table-row';
+    document.getElementById('butTablo').style.display = 'table-row';
+
+    document.getElementById('tatil').innerHTML = okulAcilisKalanGun+" gün";
+    document.getElementById('vize').innerHTML = vizelereKalanGun+" gün";
+    document.getElementById('final').innerHTML = finallereKalanGun+" gün";
+    document.getElementById('but').innerHTML = butlereKalanGun+" gün";
+}
+else if (bugunTarih <= vizeTarih){
     document.getElementById('vizeTablo').style.display = 'table-row';
     document.getElementById('finalTablo').style.display = 'table-row';
     document.getElementById('butTablo').style.display = 'table-row';
@@ -17,7 +30,7 @@ if (bugunTarih < vizeTarih){
     document.getElementById('final').innerHTML = finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
 }
-else if (bugunTarih < finalTarih){
+else if (bugunTarih <= finalTarih){
     document.getElementById('finalTablo').style.display = 'table-row';
     document.getElementById('butTablo').style.display = 'table-row';
 
