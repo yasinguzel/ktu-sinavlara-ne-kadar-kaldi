@@ -3,7 +3,7 @@
 
 	"name": "KTÜ Sınavlara Kaç Gün Kaldı?",
 	"description" : "Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını gösteriyor.",
-	"version": "1.1",
+	"version": "1.4",
 	"background": {
 		"scripts": ["date.js"]
 	},

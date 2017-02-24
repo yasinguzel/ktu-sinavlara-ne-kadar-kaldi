@@ -1,5 +1,5 @@
 var okulAcilisTarih = new Date("2017-2-13");
-var vizeTarih = new Date("2017-4-8");
+var vizeTarih = new Date("2017-4-22");
 var finalTarih = new Date("2017-5-29");
 var butTarih = new Date("2017-6-19");
 var bugunTarih = new Date();
