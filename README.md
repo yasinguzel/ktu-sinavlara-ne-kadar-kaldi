@@ -19,6 +19,7 @@ Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını 
 
 * Görsel öğeler eklenecek.
 
+* Bildirim eklecek
 
 
 
