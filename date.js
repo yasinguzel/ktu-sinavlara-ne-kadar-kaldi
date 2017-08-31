@@ -1,7 +1,7 @@
-var okulAcilisTarih = new Date("2017-2-13");
-var vizeTarih = new Date("2017-4-22");
-var finalTarih = new Date("2017-5-29");
-var butTarih = new Date("2017-6-19");
+var okulAcilisTarih = new Date("2017-9-18");
+var vizeTarih = new Date("2017-11-11");
+var finalTarih = new Date("2018-1-2");
+var butTarih = new Date("2018-1-22");
 var bugunTarih = new Date();
 
 var vizelereKalanGun = aradakiGunBul(vizeTarih,bugunTarih);
@@ -33,15 +33,15 @@ else if (bugunTarih <= vizeTarih){
 else if (bugunTarih <= finalTarih){
     document.getElementById('finalTablo').style.display = 'table-row';
     document.getElementById('butTablo').style.display = 'table-row';
-
     document.getElementById('final').innerHTML = finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
 }
 else{
     document.getElementById('butTablo').style.display='table-row';
-
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
 }
+
+document.getElementById('linkTablo').style.display = 'table-row';
 
 function aradakiGunBul(tarih1,tarih2){
     var oneDay = 24*60*60*1000;
