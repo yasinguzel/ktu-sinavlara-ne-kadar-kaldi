@@ -7,8 +7,6 @@ Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını 
 
 * Tablo satırlarının yüksekliği ve genişliği düzenlenecek.
 
-* bys.ktu.edu.tr adresine direk gitmek için link eklenecek.
-
 * Sınava kalan gün sayısı ikon üzerinde gösterilecek.
 
 * Chrome izinleri düzenlenecek.
@@ -20,6 +18,3 @@ Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını 
 * Görsel öğeler eklenecek.
 
 * Bildirim eklecek
-
-
-
