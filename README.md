@@ -7,8 +7,6 @@ Bu Chrome eklentisi KTÜ vize,final ve büt tarihlerine kaç gün kaldığını 
 
 * Tablo satırlarının yüksekliği ve genişliği düzenlenecek.
 
-* Sınava kalan gün sayısı ikon üzerinde gösterilecek.
-
 * Chrome izinleri düzenlenecek.
 
 * Sınav tarihlerini üniversitenin web sitesinden otomatik çekilecek.

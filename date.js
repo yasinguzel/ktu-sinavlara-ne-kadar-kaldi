@@ -20,6 +20,7 @@ if (bugunTarih <= okulAcilisTarih){
     document.getElementById('vize').innerHTML = vizelereKalanGun+" gün";
     document.getElementById('final').innerHTML = finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
+    chrome.browserAction.setBadgeText({text: String(okulAcilisKalanGun)});
 }
 else if (bugunTarih <= vizeTarih){
     document.getElementById('vizeTablo').style.display = 'table-row';
@@ -29,16 +30,19 @@ else if (bugunTarih <= vizeTarih){
     document.getElementById('vize').innerHTML = vizelereKalanGun+" gün";
     document.getElementById('final').innerHTML = finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
+    chrome.browserAction.setBadgeText({text: String(vizelereKalanGun)});
 }
 else if (bugunTarih <= finalTarih){
     document.getElementById('finalTablo').style.display = 'table-row';
     document.getElementById('butTablo').style.display = 'table-row';
     document.getElementById('final').innerHTML = finallereKalanGun+" gün";
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
+    chrome.browserAction.setBadgeText({text: String(finallereKalanGun)});
 }
 else{
     document.getElementById('butTablo').style.display='table-row';
     document.getElementById('but').innerHTML = butlereKalanGun+" gün";
+    chrome.browserAction.setBadgeText({text: String(butlereKalanGun)});
 }
 
 document.getElementById('linkTablo').style.display = 'table-row';
