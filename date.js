@@ -1,7 +1,7 @@
-var okulAcilisTarih = new Date("2017-9-18");
-var vizeTarih = new Date("2017-11-11");
-var finalTarih = new Date("2018-1-2");
-var butTarih = new Date("2018-1-22");
+var okulAcilisTarih = new Date("2018-2-12");
+var vizeTarih = new Date("2018-4-7");
+var finalTarih = new Date("2018-5-28");
+var butTarih = new Date("2018-6-18");
 var bugunTarih = new Date();
 
 var vizelereKalanGun = aradakiGunBul(vizeTarih,bugunTarih);
